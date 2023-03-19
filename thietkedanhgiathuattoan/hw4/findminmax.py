@@ -26,12 +26,6 @@ def timeFindMax(data):
     end = time.time()
     return end - start
 
-def main():
-    for i in range(1, 1000000, 10):
-        x = timeFindMin(range(i))
-        print("Time find min with data size", i, "is", x)
-        arr.append(x)
-
 
 arr = []
 for i in range(1, 10000, 10):
