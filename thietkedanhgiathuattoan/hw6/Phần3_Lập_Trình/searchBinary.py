@@ -1,7 +1,5 @@
-
 # Viết chương trình dùng kĩ thuật chia để trị cho tìm kiếm nhị phân trên mảng được sắp xếp tăng dần
 from random import randint
-
 def searchBinary(list, x):
     if len(list) == 0:
         return False
