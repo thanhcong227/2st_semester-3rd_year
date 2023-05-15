@@ -10,7 +10,7 @@ def find_path(graph, start, end, path=[]):
     for node in graph[start]:
         if node not in path:
             newpath = find_path(graph, node, end, path)
-            if newpath:
+            if newpath: # newpath is not None
                 if not shortest or len(newpath) < len(shortest):
                     shortest = newpath
     return shortest
